@@ -2,7 +2,7 @@ import {combineReducers} from 'redux'
  function xxx(preState={},action){
   switch(action.type){
     default:
-      preState
+      return preState
   }
 }
 export default combineReducers({

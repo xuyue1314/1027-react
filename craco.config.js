@@ -6,7 +6,10 @@ module.exports={
     alias:{
       '@redux':path.resolve(__dirname,'./src/redux'),
       '@api':path.resolve(__dirname,'./src/api'),
-      '@utils':path.resolve(__dirname,'./src/utils')
+      '@utils':path.resolve(__dirname,'./src/utils'),
+      '@pages':path.resolve(__dirname,'./src/pages'),
+      '@comps':path.resolve(__dirname,'./src/components')
+
     }
   },
   style:{

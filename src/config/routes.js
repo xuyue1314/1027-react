@@ -1,7 +1,8 @@
+import verifyPhone from '@pages/regist/verifyPhone'
 const routes=[
   {
-    path:"/",
-    component:"Home"
+    path:"/regist/verifyPhone",
+    component:verifyPhone
   }
 ]
 export default routes
